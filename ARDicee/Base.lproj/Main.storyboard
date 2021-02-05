@@ -30,6 +30,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ARDicee" id="5hs-0V-XMs">
+                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="UVO-TS-hwU">
+                            <connections>
+                                <action selector="removeAllDice:" destination="BV1-FR-VrT" id="j9I-N4-kf1"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="wfs-H6-4Jp">
                             <connections>
                                 <action selector="rollAgain:" destination="BV1-FR-VrT" id="xqK-hH-DbT"/>
